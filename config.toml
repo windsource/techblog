@@ -1,0 +1,86 @@
+baseURL = "https://www.fonona.net/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+author = "windsource"
+title = "fonona"
+theme = "vitae"
+paginate = 5
+enableRobotsTXT = true
+
+pygmentsstyle = "colorful"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = ""
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	series = "series"
+
+[params]
+	# Use homepage.md instead of a list of posts
+	homepage = false
+
+	# Add meta keywords in head part (Site Keywords or Tags of Page)
+	keywords = [""]
+
+	# Add meta description in head part
+	description = "fonona - Some words about technology"
+
+	# Add pagetitle to homepage <title> tag
+	pagetitle = "fonona - Some words about technology"
+
+	# Add a subtitle to your website
+	subtitle = "Some words about technology"
+
+	# Activate to show authors on pages if available
+	#listAuthor = true
+
+	# Add math typesetting with KaTeX (Global with this Param)
+	math = true
+
+	# Optional 80x80 avatar image.
+	avatar = "/images/GiraffeQuadratisch.jpg"
+
+	# Optional favicons for website
+	#favicon = true
+
+	# Add list of sections that should show up on the homepage
+    mainSections = ["posts"]
+
+	# Add list of Sections/Types that should no be considered by RSS
+	#nofeedSections = ["post"]
+
+	# Deactivate Taxonomies for specific page types
+	#disableTaxoTypes = [""]
+
+	# Custom CSS applied to default styles. (Path could be "static/css/")
+	#customCSS = "css/custom.css"
+
+# Navigation
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[params.social]]
+name = "Github"
+icon = "fab fa-github"
+url = "https://github.com/windsource/techblog"
+
+[[params.social]]
+name = "RSS"
+icon = "fas fa-rss"
+url = "/index.xml"
+
