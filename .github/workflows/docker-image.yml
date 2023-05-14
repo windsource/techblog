@@ -22,7 +22,7 @@ jobs:
       - name: Login, build and push
         run: |
           # Login
-          echo ${{ secrets.PAT_GHCR }} | docker login ghcr.io -u windsource --password-stdin
+          echo ${{secrets.GITHUB_TOKEN}} | docker login ghcr.io -u windsource --password-stdin
           # Create new builder
           docker buildx create --name mybuilder --driver docker-container --bootstrap
           # Use new builder
