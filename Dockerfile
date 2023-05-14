@@ -6,5 +6,6 @@ COPY . .
 RUN hugo
 
 FROM --platform=$TARGETPLATFORM nginx:1.18.0
+LABEL org.opencontainers.image.source="https://github.com/windsource/techblog"
 
 COPY --from=0 /hugo/public/ /usr/share/nginx/html
