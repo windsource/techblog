@@ -8,4 +8,4 @@ I'm always happy to connect with fellow developers, tech enthusiasts, and reader
 
 ### Email
 
-For any questions or assistance, you can reach me at [info@fonona.net](mailto:info@fonona.net).
+For any questions or assistance, you can reach me at [info@fonona.net](mailto:info@fonona.net) or use the [form](https://mail.fonona.net).
