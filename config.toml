@@ -74,6 +74,11 @@ name = "About"
 url = "/about"
 weight = 3
 
+[[menu.main]]
+name = "Contact"
+url = "https://mail.fonona.net"
+weight = 4
+
 [[params.social]]
 name = "Github"
 icon = "fab fa-github"
