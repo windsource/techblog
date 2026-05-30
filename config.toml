@@ -76,7 +76,7 @@ weight = 3
 
 [[menu.main]]
 name = "Contact"
-url = "https://mail.fonona.net"
+url = "/contact"
 weight = 4
 
 [[params.social]]
